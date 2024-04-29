@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  padding: 0.3rem;
+}
+.view {
+  border: 1px solid;
+}
+.container {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  border: 1px solid;
+  padding: 10%;
+}
+.container p {
+  padding: 10px;
+}
+.container-img {
+  /* float: right; */
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  left: 800px;
+  top: 150px;
+  border: 1px solid;
+  height: 73%;
+}
+.intro-pattern {
+  position: absolute;
+  left: 1px;
+}
+
+.about-section {
+  border-top: 1px solid;
+  padding-left: 150px;
+}
+
+.cards {
+  /* display: flex; */
+  columns: 3;
+  padding: 150px;
+}
+.sub-container {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  border: 1px solid;
+  padding: 70px;
+  margin: 150px;
+}
+.btn-1 {
+  display: flex;
+  justify-content: flex-end;
+  height: 35px;
+  color: hsl(256, 26%, 20%);
+
+}
+.social-icons {
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+footer {
+    border-top: 1px solid;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px;
+}
+.footer-container h3 {
+    color: hsl(0, 5%, 66%);
+}
+.second-logo {
+    padding-left: 50px;
+}
